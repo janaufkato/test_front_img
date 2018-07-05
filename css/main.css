@@ -1,0 +1,124 @@
+
+/* fonts */
+@font-face {
+    font-family: «Tahoma», sans-serif;
+    src: url('../fonts/TahomaBold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: «Times», serif;
+    src: url('../fonts/TimesNewRomanItalic.ttf');
+    font-weight: italic;
+}
+@font-face {
+    font-family: «Times», serif;
+    src: url('../fonts/TimesNewRomanRegular.ttf');
+    font-weight: 400;
+}
+
+/* Typography */
+a {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+h1 {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 21px;
+}
+h2 {
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    font-family: Times;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+}
+.content {
+    margin: 0px 10%;
+    clear: left;
+}
+
+/* navigation */
+.nav {
+    background-color: #fff;
+}
+ .nav_logo {
+    float: left;
+    margin: 20px 0px 30px 10%;
+}
+.nav_menu {
+    margin-right: 10%;
+}
+.nav_menu a {
+    margin: 30px 0px 30px 60px;
+    float: right;
+    text-transform: capitalize;
+}
+.nav_menu a:hover {
+    color: rgb(200, 60, 50);
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+
+
+/* content */
+.content_block {
+    height: 270px;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 40px;
+}
+.content_block__img {
+    float: left;
+    width: 378px;
+    height: 230px;
+    margin: 20px 30px;
+    box-shadow:2px 2px 15px 1px rgba(0, 0, 0, 0.2);
+}
+.content_block__title {
+    padding-top: 20px;
+}
+.content_block__text {
+    padding: 20px;
+}
+.content_block__btn {
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 3px;
+    background: rgb(200, 60, 50)
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+.content_block__btn:hover {
+    background: rgb(200, 60, 50)
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4));
+}
+.content_block__btn:active {
+    background: rgb(200, 60, 50)
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+}
+
+.inf_block div {
+    padding: 15px 5%;
+    float: left;
+}
+.inf_block div:first-child {
+    padding: 15px 0%;
+}
+.inf_block i {
+    font-family: Times;
+    font-weight: italic;
+    float: right;
+    padding-left: 10px;
+}
+.content_title {
+    clear: left;
+    margin: 10px 0px;
+}
