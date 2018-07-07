@@ -105,12 +105,15 @@ p {
     -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
 }
 
-.inf_block div {
-    padding: 15px 5%;
-    float: left;
-}
-.inf_block div:first-child {
-    padding: 15px 0%;
+.inf_block  {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 .inf_block i {
     font-family: Times;
